@@ -4,25 +4,26 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/border_for_day_month_item"
-    android:padding="1dp">
+    android:paddingTop="1dp">
     <TextView
-        android:id="@+id/titleFriday2"
+        android:id="@+id/titleThursday4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Friday2"
+        android:text="Thursday4"
         style="@style/text_view_day_title_month"
         />
     <TextView
-        android:id="@+id/lesson1Friday2"
+        android:id="@+id/lesson1Thursday4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titleFriday2"
+        app:layout_constraintTop_toBottomOf="@id/titleThursday4"
         app:layout_constraintStart_toStartOf="parent"
         style="@style/text_view_day_lesson_month"
         android:text="lesson1"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,23 +6,22 @@
     android:background="@drawable/border_for_day_month_item"
     android:padding="1dp">
     <TextView
-        android:id="@+id/titleFriday2"
+        android:id="@+id/titleFriday3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Friday2"
+        android:text="Friday3"
         style="@style/text_view_day_title_month"
         />
     <TextView
-        android:id="@+id/lesson1Friday2"
+        android:id="@+id/lesson1Friday3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/titleFriday2"
+        app:layout_constraintTop_toBottomOf="@id/titleFriday3"
         app:layout_constraintStart_toStartOf="parent"
         style="@style/text_view_day_lesson_month"
-        android:text="lesson1"
-        />
+        android:text="lesson1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

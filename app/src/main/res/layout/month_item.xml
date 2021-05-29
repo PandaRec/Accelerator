@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:columnCount="6"
+    android:rowCount="6"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintBottom_toBottomOf="parent"
@@ -106,6 +107,109 @@
         android:layout_columnWeight="1"
         android:layout_height="wrap_content"
         layout="@layout/day_saturday_2"/>
+
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_monday_3"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_tuesday_3"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_wednesday_3"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_thursday_3"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_friday_3"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_saturday_3"/>
+
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_monday_4"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_tuesday_4"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_wednesday_4"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_thursday_4"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_friday_4"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_saturday_4"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_monday_5"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_tuesday_5"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_wednesday_5"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_thursday_5"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_friday_5"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_saturday_5"/>
+
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_monday_6"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_tuesday_6"/>
 
 
 
