@@ -31,7 +31,7 @@ class MonthAdapter: RecyclerView.Adapter<MonthAdapter.MonthViewHolder>() {
         //val textView = itemView.findViewById<TextView>(R.id.dayOfMonth)
         //val view = itemView.findViewById<View>(R.id.mainMonthViewItem)
         val factor  = itemView.context.resources.displayMetrics.density
-        val textView = itemView.findViewById<TextView>(R.id.dayMonthTitle)
+        //val textView = itemView.findViewById<TextView>(R.id.dayMonthTitle)
 //        val id1 = itemView.findViewById<ConstraintLayout>(R.id.id1)
 //        val id2 = itemView.findViewById<ConstraintLayout>(R.id.id2)
 //        val id3 = itemView.findViewById<ConstraintLayout>(R.id.id3)

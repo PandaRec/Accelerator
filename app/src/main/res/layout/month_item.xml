@@ -9,89 +9,103 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     >
-<include
+    <include
+        layout="@layout/header_monday_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1" />
+
+    <include
+        layout="@layout/header_tuesday_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1" />
+
+    <include
+        layout="@layout/header_wednesday_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1" />
+
+    <include
+        layout="@layout/header_thursday_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1" />
+
+    <include
+        layout="@layout/header_friday_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1" />
+
+    <include
+        layout="@layout/header_saturday_month"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1" />
+
+    <include
     android:layout_width="0dp"
     android:layout_columnWeight="1"
     android:layout_height="wrap_content"
-    layout="@layout/monday_1"/>
+    layout="@layout/day_monday_1"/>
     <include
         android:layout_width="0dp"
         android:layout_columnWeight="1"
         android:layout_height="wrap_content"
-        layout="@layout/tuesday_1"/>
+        layout="@layout/day_tuesday_1"/>
     <include
         android:layout_width="0dp"
         android:layout_columnWeight="1"
         android:layout_height="wrap_content"
-        layout="@layout/wednesday_1"/>
+        layout="@layout/day_wednesday_1"/>
     <include
         android:layout_width="0dp"
         android:layout_columnWeight="1"
         android:layout_height="wrap_content"
-        layout="@layout/thursday_1"/>
+        layout="@layout/day_thursday_1"/>
     <include
         android:layout_width="0dp"
         android:layout_columnWeight="1"
         android:layout_height="wrap_content"
-        layout="@layout/friday_1"/>
+        layout="@layout/day_friday_1"/>
     <include
         android:layout_width="0dp"
         android:layout_columnWeight="1"
         android:layout_height="wrap_content"
-        layout="@layout/saturday_1"/>
+        layout="@layout/day_saturday_1"/>
 
-
-<!--    <include-->
-<!--        android:id="@+id/id1"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_columnWeight="1"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="fill"-->
-<!--        layout="@layout/day_month_item"/>-->
-<!--    <include-->
-<!--        android:id="@+id/id2"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_columnWeight="1"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="fill"-->
-<!--        layout="@layout/day_month_item"/>-->
-<!--    <include-->
-<!--        android:id="@+id/id3"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_columnWeight="1"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="fill"-->
-<!--        layout="@layout/day_month_item"/>-->
-<!--    <include-->
-<!--        android:id="@+id/id4"-->
-<!--        android:layout_width="0dp"-->
-<!--    android:layout_columnWeight="1"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_gravity="fill"-->
-<!--    layout="@layout/day_month_item"/>-->
-<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;        android:text="1"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_columnWeight="1"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_gravity="fill"&ndash;&gt;-->
-
-<!--&lt;!&ndash;        />&ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:text="2"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_columnWeight="1"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:layout_gravity="fill"/>-->
-
-<!--    <TextView-->
-<!--        android:text="7"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_columnWeight="1"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="fill"-->
-
-<!--/>-->
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_monday_2"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_tuesday_2"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_wednesday_2"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_thursday_2"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_friday_2"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/day_saturday_2"/>
 
 
 
