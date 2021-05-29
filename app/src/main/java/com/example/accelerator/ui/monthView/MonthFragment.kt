@@ -64,8 +64,112 @@ class MonthFragment : Fragment() {
                     Day("5","lesson1","lesson2","lesson3","lesson4","lesson5"),
                     Day("6","lesson1","lesson2","lesson3","lesson4","lesson5")
                 )
-            ))
+            ),Week(
+                listOf(
+                    Day("7","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("8","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("9","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("10","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("11","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("12","lesson1","lesson2","lesson3","lesson4","lesson5")
+                )
+            ),Week(
+                listOf(
+                    Day("13","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("14","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("15","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("16","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("17","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("18","lesson1","lesson2","lesson3","lesson4","lesson5")
+                )
+            ),Week(
+                listOf(
+                    Day("19","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("20","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("21","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("22","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("23","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                    Day("24","lesson1","lesson2","lesson3","lesson4","lesson5")
+                )
+            ),
+                Week(
+                    listOf(
+                        Day("25","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("26","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("27","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("28","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("29","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("30","lesson1","lesson2","lesson3","lesson4","lesson5")
+                    )
+                ),
+                Week(
+                    listOf(
+                        Day("31","lesson1","lesson2","lesson3","lesson4","lesson5")
+                        )
+                )
+            )
         )
+
+
+        )
+
+        list.add(
+            Month(
+                listOf(Week(
+                    listOf(Day("1","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("2","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("3","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("4","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("5","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("6","lesson1","lesson2","lesson3","lesson4","lesson5")
+                    )
+                ),Week(
+                    listOf(
+                        Day("7","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("8","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("9","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("10","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("11","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("12","lesson1","lesson2","lesson3","lesson4","lesson5")
+                    )
+                ),Week(
+                    listOf(
+                        Day("13","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("14","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("15","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("16","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("17","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("18","lesson1","lesson2","lesson3","lesson4","lesson5")
+                    )
+                ),Week(
+                    listOf(
+                        Day("19","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("20","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("21","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("22","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("23","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                        Day("24","lesson1","lesson2","lesson3","lesson4","lesson5")
+                    )
+                ),
+                    Week(
+                        listOf(
+                            Day("25","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                            Day("26","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                            Day("27","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                            Day("28","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                            Day("29","lesson1","lesson2","lesson3","lesson4","lesson5"),
+                            Day("30","lesson1","lesson2","lesson3","lesson4","lesson5")
+                        )
+                    ),
+                    Week(
+                        listOf(
+                            Day("31","lesson1","lesson2","lesson3","lesson4","lesson5")
+                        )
+                    )
+                )
+            )
+
+
         )
         //list.add(Day("1","lesson1","lesson2","lesson3","lesson4","lesson5"),)
         //        list.add(Day("2","lesson1","lesson2","lesson3","lesson4","lesson5"),)
