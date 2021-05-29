@@ -1,14 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="6"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    >
+<include
+    android:layout_width="0dp"
+    android:layout_columnWeight="1"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <TextView
-        android:id="@+id/testTextView"
-        android:layout_width="wrap_content"
+    layout="@layout/monday_1"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        layout="@layout/tuesday_1"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/wednesday_1"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/thursday_1"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/friday_1"/>
+    <include
+        android:layout_width="0dp"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        layout="@layout/saturday_1"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <include-->
+<!--        android:id="@+id/id1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="fill"-->
+<!--        layout="@layout/day_month_item"/>-->
+<!--    <include-->
+<!--        android:id="@+id/id2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="fill"-->
+<!--        layout="@layout/day_month_item"/>-->
+<!--    <include-->
+<!--        android:id="@+id/id3"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="fill"-->
+<!--        layout="@layout/day_month_item"/>-->
+<!--    <include-->
+<!--        android:id="@+id/id4"-->
+<!--        android:layout_width="0dp"-->
+<!--    android:layout_columnWeight="1"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_gravity="fill"-->
+<!--    layout="@layout/day_month_item"/>-->
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_columnWeight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="fill"&ndash;&gt;-->
+
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:text="2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_gravity="fill"/>-->
+
+<!--    <TextView-->
+<!--        android:text="7"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_columnWeight="1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="fill"-->
+
+<!--/>-->
+
+
+
+
+
+</GridLayout>

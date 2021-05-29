@@ -4,18 +4,13 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
-import android.view.MotionEvent
-import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.*
 import com.example.accelerator.databinding.ActivityMainBinding
-import com.example.accelerator.utils.OnSwipeTouchListener
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
+                R.id.nav_month, R.id.nav_gallery, R.id.nav_slideshow), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
@@ -51,20 +46,7 @@ class MainActivity : AppCompatActivity() {
         //add smth to side navigation
         val m = navView.menu
         createSideMenu(m)
-        //swipes to open side navigation
-        drawerLayout.setOnTouchListener(object: OnSwipeTouchListener(this@MainActivity) {
-            override fun onSwipeLeft() {
-                drawerLayout.closeDrawer(GravityCompat.START)
-                Toast.makeText(this@MainActivity, "onSwipeLeft", Toast.LENGTH_SHORT).show()
-            }
-            override fun onSwipeRight() {
-                drawerLayout.openDrawer(GravityCompat.START)
-                Toast.makeText(this@MainActivity, "onSwipeRight", Toast.LENGTH_SHORT).show()
 
-
-            }
-
-        })
 //
 
         //this is for click
@@ -74,7 +56,8 @@ class MainActivity : AppCompatActivity() {
             Log.d("MYTAG",it.itemId.toString())
             when(it.itemId){
                 1->{
-                    it.isCheckable=true
+
+                    it.isCheckable=true //mark as selected for group need this
                     navController.navigate(R.id.nav_gallery)
                     drawerLayout.closeDrawer(GravityCompat.START)
                 }
